@@ -1,11 +1,11 @@
-
-.hero{
-    max-height: 600px!important;
+.hero {
+    max-height: 600px !important;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 4em;
 }
+
 .mylist ul {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -39,14 +39,14 @@
 }
 
 
-form input[type="search"]{
+form input[type="search"] {
     padding: 15px;
     width: 70%;
     border-radius: 50px;
     border: none;
 }
 
-.h-search-form button{
+.h-search-form button {
     position: relative;
     padding: 7px;
     border-radius: 50%;
@@ -57,15 +57,15 @@ form input[type="search"]{
     border: none;
 }
 
-h3{
+h3 {
     font-weight: 600;
 }
- 
-.rounded-5{
+
+.rounded-5 {
     border-radius: 30px 30px 30px 30px;
 }
 
-.newlist p{
+.newlist p {
     color: black;
     font-weight: 400;
 }
@@ -94,42 +94,38 @@ h3{
     height: 200px;
 }
 
-.rounded-2{
+.rounded-2 {
     border-radius: 5px 5px 5px 5px;
 }
 
-.tred{
+.tred {
     height: 600px;
     color: white;
 }
 
-.tred h3{
+.tred h3 {
     font-weight: 400;
     margin: 10px 0;
     font-size: 2rem;
 }
 
 
-.tred p{
+.tred p {
     font-weight: 700;
     color: white;
     font-size: 2rem;
 }
 
-.h-search-forms{
+.h-search-forms {
     background: #fff;
 }
 
-.buyings{
-    border: 1px solid black;
-    cursor: pointer;
-}
 
-.h-search-forms input[type="search"]{
+.h-search-forms input[type="search"] {
     width: 80%;
 }
 
-.h-search-forms button{
+.h-search-forms button {
     position: relative;
     padding: 7px;
     border-radius: 50%;
@@ -161,69 +157,73 @@ h3{
     height: 200px;
 }
 
-.mainfoot{
+.mainfoot {
     font-size: 15px;
 }
 
 
-.footer ul{
+.footer ul {
     display: flex;
 }
 
-.footer ul li{
+.footer ul li {
     display: inline-block;
     padding-left: 0px;
 }
 
-.footer ul li a{
+.footer ul li a {
     text-decoration: none;
     color: white;
-    padding-left:15px ;
+    padding-left: 15px;
 }
 
-.footer .personal{
+.footer .personal {
     color: yellow;
     font-weight: bold;
 }
 
-.other-buttons{
+.other-buttons {
     text-align: right;
     margin-left: 2%;
 }
 
-.account{
+.account {
     text-align: right;
     margin-left: 2%;
 }
 
 
-.site-navbar .account{
+.site-navbar .account {
     text-align: right;
 }
-@media(max-width: 700px){
-    .mainhead h1{
+
+@media(max-width: 700px) {
+    .mainhead h1 {
         font-size: 30px;
     }
-    h3{
+
+    h3 {
         font-weight: 600;
         font-size: 15px;
     }
-    .mainhead h5{
+
+    .mainhead h5 {
         font-size: 15px;
         font-weight: 100;
         margin: 0px;
     }
 
-    form input[type="search"]{
+    form input[type="search"] {
         padding: 10px;
         width: 90%;
         border-radius: 50px;
     }
 
-    .hero{
-        max-height: 400px!important;
+    .hero {
+        max-height: 400px !important;
     }
-    .mylist ul{
+
+    .mylist ul {
         width: 100%;
         font-size: 11px;
         padding: 0px;
@@ -232,9 +232,10 @@ h3{
         margin: 0px;
     }
 
-    .mylist .itemse{
+    .mylist .itemse {
         display: none;
     }
+
     .mylist ul li {
         list-style: none;
         display: inline-block;
@@ -249,14 +250,14 @@ h3{
         color: gray;
     }
 
-    form input[type="search"]{
+    form input[type="search"] {
         padding: 6px;
         width: 90%;
         border-radius: 50px;
         margin: 0px;
     }
 
-    .h-search-form button{
+    .h-search-form button {
         position: relative;
         padding: 4px;
         border-radius: 50%;
@@ -266,8 +267,8 @@ h3{
         color: white;
         border: none;
     }
-    
-    .h-search-forms button{
+
+    .h-search-forms button {
         position: relative;
         padding: 4px;
         border-radius: 50%;
@@ -284,52 +285,55 @@ h3{
         position: relative;
         height: 500px;
         overflow-x: auto;
-        
+
     }
 
-    .loan-details h1{
+    .loan-details h1 {
         font-size: 25px;
     }
 
-    
-    .loan-details h5{
+
+    .loan-details h5 {
         font-size: 15px;
     }
 
-    .h-search-forms input[type="search"]{
+    .h-search-forms input[type="search"] {
         width: 90%;
     }
 
-    .tred{
+    .tred {
         height: 400px;
         color: white;
     }
-    
-    .tred h3{
+
+    .tred h3 {
         font-weight: 400;
         margin: 10px 0;
         font-size: 2rem;
     }
 
-    .tred p{
+    .tred p {
         font-weight: 400;
         color: white;
         font-size: 1rem;
     }
 
-    .mainfoot{
-        display:none;
+    .mainfoot {
+        display: none;
     }
-    .footer ul{
+
+    .footer ul {
         display: block;
     }
-    .footer ul li{
+
+    .footer ul li {
         display: block;
         padding-left: 0px;
     }
-    
-    
+
+
 }
+
 /*
 .form-searchs input[type='text'] {
     position: relative;

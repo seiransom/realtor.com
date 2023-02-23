@@ -1,10 +1,29 @@
 $(document).ready(function () {
-    buying_field();
+    buying_fields();
 });
 
-
-function buying_field(){
-    $("#buying").load('../pages/buying.html');
+function buying_fields(param) {
+    $("#buying").load('pages/buying.html');
+    $("#buying").show();
+    $("#renting").hide();
+    $("#selling").hide();
 }
+
+function renting_fields() {
+    $("#renting").load('pages/renting.html');
+    $("#renting").show();
+    $("#buying").hide();
+    $("#selling").hide();
+}
+
+
+function selling_fields() {
+    $("#selling").load('pages/selling.html');
+    $("#selling").show();
+    $("#renting").hide();
+    $("#buying").hide();
+}
+
+
 
 
