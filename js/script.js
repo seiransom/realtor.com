@@ -1,6 +1,6 @@
-$(document).ready(function () {
+(function ($) {
     buying_fields();
-});
+})(jQuery);
 
 function buying_fields(param) {
     $("#buying").load('pages/buying.html');
